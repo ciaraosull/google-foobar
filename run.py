@@ -1,11 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
-
 def solution(x, y):
     """
-    function
+    function for challenge one
     """
     unique_num = list(set(x) - set(y)) + list(set(y) - set(x))
     for i in unique_num:
